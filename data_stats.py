@@ -22,7 +22,7 @@ parser.add_argument('-M',action='store_true',
 parser.add_argument('-a',action='store_true',
 	help='display average and mean square of each column')
 parser.add_argument('-s',action='store_true',
-	help='display ration between average of each y divided by the average of their respective x variables')
+	help='display ratio between average of each y divided by the average of their respective x variables')
 
 args = parser.parse_args()
 
